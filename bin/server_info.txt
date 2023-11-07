@@ -1,0 +1,2 @@
+ServerIP: localhost
+Port: 9999

@@ -1,0 +1,32 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CalcClient",
+            "request": "launch",
+            "mainClass": "CalcClient",
+            "projectName": "ComputerNetwork_e127cc81"
+        },
+        {
+            "type": "java",
+            "name": "CalcServer",
+            "request": "launch",
+            "mainClass": "CalcServer",
+            "projectName": "ComputerNetwork_e127cc81"
+        },
+        {
+            "type": "java",
+            "name": "ServerInfoConfig",
+            "request": "launch",
+            "mainClass": "ServerInfoConfig",
+            "projectName": "ComputerNetwork_e127cc81"
+        },
+        {
+            "type": "java",
+            "name": "Run with AppMap",
+            "request": "launch",
+            "mainClass": "",
+            "vmArgs": "-javaagent:${userHome}/.appmap/lib/java/appmap.jar"
+        }
+    ]
+}
